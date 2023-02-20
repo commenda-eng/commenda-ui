@@ -1,3 +1,4 @@
+import "./tailwind.css";
 import "../tailwind.css";
 
 import Badge from "./components/Badge";

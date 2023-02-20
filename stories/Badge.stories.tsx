@@ -9,7 +9,7 @@ const meta: Meta = {
     variant: {
       control: {
         type: "select",
-        options: ["pink", "yellow", "purple", "green", "blue"],
+        options: ["pink", "yellow", "purple", "green", "blue", "default"],
       },
     },
   },

@@ -2,7 +2,7 @@ import React from "react";
 
 export interface BadgePropsType extends React.HTMLAttributes<HTMLSpanElement> {
   text: string;
-  variant: "pink" | "purple" | "green" | "yellow" | "blue";
+  variant: "pink" | "purple" | "green" | "yellow" | "blue" | "default";
 }
 
 const Badge = ({ variant, text }: BadgePropsType) => {
@@ -23,6 +23,9 @@ const Badge = ({ variant, text }: BadgePropsType) => {
       className += "text-[#03543f] bg-[#def7ec]";
       break;
     case "blue":
+      className += "text-[#42389d] bg-[#e5edff]";
+      break;
+    case "default":
       className += "text-[#42389d] bg-[#e5edff]";
       break;
     default:

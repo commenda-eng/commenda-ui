@@ -1,8 +1,10 @@
 {
   "name": "commenda-ui-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The Official Component Library for Commenda",
-  "author": "Commenda Team",
+  "author": {
+    "name": "Commenda Team"
+  },
   "license": "MIT",
   "private": false,
   "main": "lib/index.js",
@@ -24,6 +26,7 @@
     "@types/react": "^18.0.28",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
     "react": "^18.2.0",
@@ -48,6 +51,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c && yarn build-tailwind",
-    "build-tailwind": "npx tailwindcss -o ./lib/tailwind.css --minify"
-  }
+    "build-tailwind": "npx tailwindcss -o ./lib/tailwind.css --minify",
+    "chromatic": "npx chromatic --project-token=6bb1a3705504"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "commenda-ui-lib@0.0.2"
 }
